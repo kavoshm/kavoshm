@@ -11,6 +11,12 @@ FHIR interoperability, and clinical data platforms.
 
 ---
 
+### Live Demo
+
+**[Clinical Note Classifier](https://huggingface.co/spaces/kavoshm/clinical-note-classifier)** -- Try it now. Paste a clinical note and get structured triage output: urgency level, ICD-10 code, chain-of-thought reasoning, and recommended actions. 100% urgency accuracy on 20 test cases, 85% ICD-10 exact match. Runs in demo mode with pre-computed results (no API key needed).
+
+---
+
 ### What I Work On
 
 **AI Evaluation & Quality** -- Automated evaluation frameworks for LLM-generated clinical
@@ -31,11 +37,17 @@ give teams the same confidence in AI changes that they have in code changes.
 
 | Project | What It Does | Key Tech |
 |---------|-------------|----------|
+| [Clinical Note Classifier](https://github.com/kavoshm/clinical-note-classifier) | LLM-powered triage with chain-of-thought reasoning — **[Live Demo](https://huggingface.co/spaces/kavoshm/clinical-note-classifier)** | Few-shot prompting, Gradio, Pydantic |
 | [Clinical Eval Framework](https://github.com/kavoshm/clinical-eval-framework) | Automated quality scoring for LLM clinical outputs with 4 rubrics and regression detection | G-Eval, GPT-4-as-judge, baseline management |
 | [Clinical Intake Pipeline](https://github.com/kavoshm/clinical-intake-pipeline) | Multi-agent extraction from clinical notes to FHIR R4 resources with human-in-the-loop | LangGraph, FHIR R4, function calling |
 | [Mental Health RAG](https://github.com/kavoshm/mental-health-rag) | RAG system for querying clinical treatment protocols with citation-backed answers | ChromaDB, MMR retrieval, FastAPI |
-| [Clinical Note Classifier](https://github.com/kavoshm/clinical-note-classifier) | LLM-powered triage classification with chain-of-thought reasoning | Few-shot prompting, structured output |
 | [Clinical AI CI/CD](https://github.com/kavoshm/clinical-ai-cicd) | CI/CD pipeline for LLM apps with automated evaluation and PR-level quality gates | GitHub Actions, eval automation |
+
+---
+
+### Writing
+
+**[Why LLM-as-Judge Works Differently in Healthcare](https://kavoshm.github.io/blog/)** -- Lessons from building clinical evaluation pipelines. Covers why BLEU/ROUGE fail for clinical text, how safety-weighted rubrics change evaluation design, and what chain-of-thought scoring reveals about LLM reliability in healthcare.
 
 ---
 
@@ -54,17 +66,9 @@ Engineering:   Python  |  C# / .NET  |  FastAPI  |  React  |  Docker
 
 ---
 
-### Current Focus
-
-Building evaluation infrastructure for clinical AI. The gap I see in the industry: teams
-ship LLM features without systematic quality measurement. In healthcare, that gap has
-real consequences. My work focuses on making evaluation automated, reproducible, and
-integrated into the development workflow -- not a manual afterthought.
-
----
-
 ### Get in Touch
 
 - **LinkedIn:** [kavoshmonfared](https://linkedin.com/in/kavoshmonfared)
 - **Email:** monfaredkavosh@gmail.com
-- **Location:** Tehran, Iran (available for relocation)
+- **Portfolio:** [kavoshm.github.io](https://kavoshm.github.io)
+- **Location:** Tehran, Iran (open to relocation)
