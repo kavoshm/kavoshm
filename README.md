@@ -13,7 +13,7 @@ FHIR interoperability, and clinical data platforms.
 
 ### Live Demo
 
-**[Clinical Note Classifier](https://huggingface.co/spaces/kavoshm/clinical-note-classifier)** -- Try it now. Paste a clinical note and get structured triage output: urgency level, ICD-10 code, chain-of-thought reasoning, and recommended actions. 100% urgency accuracy on 20 test cases, 85% ICD-10 exact match. Runs in demo mode with pre-computed results (no API key needed).
+**[Clinical Note Classifier](https://kavoshm-clinical-note-classifier.hf.space)** -- Try it now. Paste a clinical note and get structured triage output: urgency level, ICD-10 code, chain-of-thought reasoning, and recommended actions. 100% urgency accuracy on 20 test cases, 85% ICD-10 exact match. Runs in demo mode with pre-computed results (no API key needed).
 
 ---
 
@@ -37,7 +37,7 @@ give teams the same confidence in AI changes that they have in code changes.
 
 | Project | What It Does | Key Tech |
 |---------|-------------|----------|
-| [Clinical Note Classifier](https://github.com/kavoshm/clinical-note-classifier) | LLM-powered triage with chain-of-thought reasoning — **[Live Demo](https://huggingface.co/spaces/kavoshm/clinical-note-classifier)** | Few-shot prompting, Gradio, Pydantic |
+| [Clinical Note Classifier](https://github.com/kavoshm/clinical-note-classifier) | LLM-powered triage with chain-of-thought reasoning — **[Live Demo](https://kavoshm-clinical-note-classifier.hf.space)** | Few-shot prompting, Gradio, Pydantic |
 | [Clinical Eval Framework](https://github.com/kavoshm/clinical-eval-framework) | Automated quality scoring for LLM clinical outputs with 4 rubrics and regression detection | G-Eval, GPT-4-as-judge, baseline management |
 | [Clinical Intake Pipeline](https://github.com/kavoshm/clinical-intake-pipeline) | Multi-agent extraction from clinical notes to FHIR R4 resources with human-in-the-loop | LangGraph, FHIR R4, function calling |
 | [Mental Health RAG](https://github.com/kavoshm/mental-health-rag) | RAG system for querying clinical treatment protocols with citation-backed answers | ChromaDB, MMR retrieval, FastAPI |
