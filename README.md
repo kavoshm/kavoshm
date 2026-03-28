@@ -68,7 +68,7 @@ Engineering:   Python  |  C# / .NET  |  FastAPI  |  React  |  Docker
 
 ### Get in Touch
 
-- **LinkedIn:** [kavoshmonfared](https://linkedin.com/in/kavoshmonfared)
+- **LinkedIn:** [Kavosh Monfared](https://www.linkedin.com/in/kavosh-m-5479063ba/)
 - **Email:** monfaredkavosh@gmail.com
 - **Portfolio:** [kavoshm.github.io](https://kavoshm.github.io)
 - **Location:** Tehran, Iran (open to relocation)
